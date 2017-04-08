@@ -1,7 +1,7 @@
 # stat-utils
 Basic statistics utilities from a simple list of numbers. Experimental. A work in progress.
 
-#api
+# api
 ### stats(list [,round])
 Returns an object with statistics based on `list`
 
@@ -17,14 +17,14 @@ Return values
 - `sd` the standard deviation
 - `outliers` Numbers that deviate from the mean by at least 1 sd
 
-#test
+# test
 ```bash
 $ npm test
 ```
 
-#todos
+# todos
 - [x] `Math.round` as option
 - [ ] use [taper](https://github.com/karlpokus/taper) for testing
 
-#license
+# license
 MIT
